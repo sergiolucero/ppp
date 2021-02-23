@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "comuna": "CONTULMO", "local": "ESCUELA SAN LUIS DE CONTULMO", "porc_apr": 0.51845728829240423, "porc_pin": 0.61742085776183631, "lat": -38.017373, "lon": -73.230688 }, "geometry": { "type": "Point", "coordinates": [ -73.230688, -38.017373 ] } },
+{ "type": "Feature", "properties": { "comuna": "CONTULMO", "local": "LICEO POLIVALENTE NAHUELBUTA", "porc_apr": 0.57782413350449291, "porc_pin": 0.63979316018333532, "lat": -38.016235, "lon": -73.227383 }, "geometry": { "type": "Point", "coordinates": [ -73.227383, -38.016235 ] } }
+]
+}

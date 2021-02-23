@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "comuna": "LEBU", "local": "ESCUELA FRESIA GRACIELA MULLER RUIZ", "porc_apr": 0.63610251023041586, "porc_pin": 0.54064814575243647, "lat": -37.608553, "lon": -73.657385 }, "geometry": { "type": "Point", "coordinates": [ -73.657385, -37.608553 ] } },
+{ "type": "Feature", "properties": { "comuna": "LEBU", "local": "LICEO ISIDORA RAMOS DE GAJARDO", "porc_apr": 0.65772469478265716, "porc_pin": 0.48375914996894875, "lat": -37.609714, "lon": -73.648329 }, "geometry": { "type": "Point", "coordinates": [ -73.648329, -37.609714 ] } },
+{ "type": "Feature", "properties": { "comuna": "LEBU", "local": "LICEO TECNICO PROFESIONAL DOCTOR RIGOBERTO IGLESIAS BASTIAS DE LEBU", "porc_apr": 0.69956721266160404, "porc_pin": 0.489358653355559, "lat": -37.606051, "lon": -73.653395 }, "geometry": { "type": "Point", "coordinates": [ -73.653395, -37.606051 ] } }
+]
+}

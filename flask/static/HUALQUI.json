@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "comuna": "HUALQUI", "local": "ESCUELA CARLOS ALBERTO FERNANDEZ CASTILLO", "porc_apr": 0.69689496964613795, "porc_pin": 0.47797674950944002, "lat": -37.161932, "lon": -72.908017 }, "geometry": { "type": "Point", "coordinates": [ -72.908017, -37.161932 ] } },
+{ "type": "Feature", "properties": { "comuna": "HUALQUI", "local": "ESCUELA MANUEL AMAT Y JUNIET", "porc_apr": 0.79918217003636727, "porc_pin": 0.54755578559490936, "lat": -36.977618, "lon": -72.937137 }, "geometry": { "type": "Point", "coordinates": [ -72.937137, -36.977618 ] } },
+{ "type": "Feature", "properties": { "comuna": "HUALQUI", "local": "ESCUELA NUEVA REPUBLICA", "porc_apr": 0.776960608528807, "porc_pin": 0.58626122514422019, "lat": -36.967191, "lon": -72.93085 }, "geometry": { "type": "Point", "coordinates": [ -72.93085, -36.967191 ] } }
+]
+}

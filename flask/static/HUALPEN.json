@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "comuna": "HUALPEN", "local": "COLEGIO ALONKURA", "porc_apr": 0.79191769648866683, "porc_pin": 0.51859660401838803, "lat": -36.791291, "lon": -73.092803 }, "geometry": { "type": "Point", "coordinates": [ -73.092803, -36.791291 ] } },
+{ "type": "Feature", "properties": { "comuna": "HUALPEN", "local": "COLEGIO BASICO VILLA ACERO", "porc_apr": 0.77110445807741468, "porc_pin": 0.53982035102668147, "lat": -36.79705, "lon": -73.093868 }, "geometry": { "type": "Point", "coordinates": [ -73.093868, -36.79705 ] } },
+{ "type": "Feature", "properties": { "comuna": "HUALPEN", "local": "COLEGIO DE LOS SAGRADOS CORAZONES", "porc_apr": 0.77083333333333337, "porc_pin": 0.56353591160220995, "lat": -36.800505, "lon": -73.084971 }, "geometry": { "type": "Point", "coordinates": [ -73.084971, -36.800505 ] } },
+{ "type": "Feature", "properties": { "comuna": "HUALPEN", "local": "ESCUELA BLANCA ESTELA PRAT CARVAJAL", "porc_apr": 0.79805883696309254, "porc_pin": 0.51330913510742759, "lat": -36.789648, "lon": -73.104227 }, "geometry": { "type": "Point", "coordinates": [ -73.104227, -36.789648 ] } },
+{ "type": "Feature", "properties": { "comuna": "HUALPEN", "local": "ESCUELA HELEN KELLER ADAMS", "porc_apr": 0.80122731227101152, "porc_pin": 0.51009515706945296, "lat": -36.784546, "lon": -73.098522 }, "geometry": { "type": "Point", "coordinates": [ -73.098522, -36.784546 ] } },
+{ "type": "Feature", "properties": { "comuna": "HUALPEN", "local": "ESCUELA REPUBLICA DEL PERU", "porc_apr": 0.83145066450122163, "porc_pin": 0.45914266167399032, "lat": -36.785814, "lon": -73.115756 }, "geometry": { "type": "Point", "coordinates": [ -73.115756, -36.785814 ] } },
+{ "type": "Feature", "properties": { "comuna": "HUALPEN", "local": "ESCUELA THOMAS JEFFERSON D 465", "porc_apr": 0.80551486807184103, "porc_pin": 0.52125748943330319, "lat": -36.784612, "lon": -73.097875 }, "geometry": { "type": "Point", "coordinates": [ -73.097875, -36.784612 ] } },
+{ "type": "Feature", "properties": { "comuna": "HUALPEN", "local": "LICEO INDUSTRIAL DE LA CONSTRUCCION HERNAN VALENZUELA", "porc_apr": 0.82500345730881608, "porc_pin": 0.51137794505538914, "lat": -36.781775, "lon": -73.102298 }, "geometry": { "type": "Point", "coordinates": [ -73.102298, -36.781775 ] } },
+{ "type": "Feature", "properties": { "comuna": "HUALPEN", "local": "LICEO SIMON BOLIVAR", "porc_apr": 0.77700035350653651, "porc_pin": 0.55660372257852808, "lat": -36.794094, "lon": -73.089907 }, "geometry": { "type": "Point", "coordinates": [ -73.089907, -36.794094 ] } },
+{ "type": "Feature", "properties": { "comuna": "HUALPEN", "local": "LICEO TECNICO PROFESIONAL LUCILA GODOY ALCAYAGA", "porc_apr": 0.83743455710707382, "porc_pin": 0.46242194771720624, "lat": -36.781541, "lon": -73.10906 }, "geometry": { "type": "Point", "coordinates": [ -73.10906, -36.781541 ] } },
+{ "type": "Feature", "properties": { "comuna": "HUALPEN", "local": "LICEO TECNICO PROFESIONAL PEDRO DEL RIO ZAÑARTU", "porc_apr": 0.77141569527575649, "porc_pin": 0.55760811764084084, "lat": -36.7903, "lon": -73.0953 }, "geometry": { "type": "Point", "coordinates": [ -73.0953, -36.7903 ] } }
+]
+}

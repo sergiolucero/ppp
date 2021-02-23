@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "comuna": "CHIGUAYANTE", "local": "ESCUELA BASICA MANQUIMAVIDA", "porc_apr": 0.76088521568473522, "porc_pin": 0.54051875659665383, "lat": -36.940155, "lon": -73.016499 }, "geometry": { "type": "Point", "coordinates": [ -73.016499, -36.940155 ] } },
+{ "type": "Feature", "properties": { "comuna": "CHIGUAYANTE", "local": "ESCUELA BASICA REPUBLICA DE GRECIA", "porc_apr": 0.75795209485170634, "porc_pin": 0.53837006061688397, "lat": -36.955799, "lon": -73.015931 }, "geometry": { "type": "Point", "coordinates": [ -73.015931, -36.955799 ] } },
+{ "type": "Feature", "properties": { "comuna": "CHIGUAYANTE", "local": "ESCUELA BELGICA", "porc_apr": 0.78056251300408952, "porc_pin": 0.4666392380392223, "lat": -36.930408, "lon": -73.028035 }, "geometry": { "type": "Point", "coordinates": [ -73.028035, -36.930408 ] } },
+{ "type": "Feature", "properties": { "comuna": "CHIGUAYANTE", "local": "ESCUELA JOSE HIPOLITO SALAS Y TORO", "porc_apr": 0.77427377911110862, "porc_pin": 0.5129379141125201, "lat": -36.920542, "lon": -73.027451 }, "geometry": { "type": "Point", "coordinates": [ -73.027451, -36.920542 ] } },
+{ "type": "Feature", "properties": { "comuna": "CHIGUAYANTE", "local": "LICEO CHIGUAYANTE", "porc_apr": 0.78030790133167105, "porc_pin": 0.51434114510373719, "lat": -36.923087, "lon": -73.030835 }, "geometry": { "type": "Point", "coordinates": [ -73.030835, -36.923087 ] } }
+]
+}

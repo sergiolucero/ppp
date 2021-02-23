@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "comuna": "HUALPEN", "local": "LICEO TECNICO PROFESIONAL LUCILA GODOY ALCAYAGA", "pap": 0.83749519784863624, "pip": 0.46244343891402717, "lat": -36.781541, "lon": -73.10906 }, "geometry": { "type": "Point", "coordinates": [ -73.10906, -36.781541 ] } },
+{ "type": "Feature", "properties": { "comuna": "HUALPEN", "local": "ESCUELA REPUBLICA DEL PERU", "pap": 0.83050847457627119, "pip": 0.46847960444993819, "lat": -36.785814, "lon": -73.115756 }, "geometry": { "type": "Point", "coordinates": [ -73.115756, -36.785814 ] } },
+{ "type": "Feature", "properties": { "comuna": "TALCAHUANO", "local": "COLEGIO BASICO NUEVA LOS LOBOS", "pap": 0.79611650485436891, "pip": 0.44779722389861193, "lat": -36.713981, "lon": -73.137945 }, "geometry": { "type": "Point", "coordinates": [ -73.137945, -36.713981 ] } },
+{ "type": "Feature", "properties": { "comuna": "LOTA", "local": "ESCUELA BASICA BELLO HORIZONTE", "pap": 0.7466666666666667, "pip": 0.42577487765089722, "lat": -37.077135, "lon": -73.152667 }, "geometry": { "type": "Point", "coordinates": [ -73.152667, -37.077135 ] } },
+{ "type": "Feature", "properties": { "comuna": "HUALPEN", "local": "LICEO INDUSTRIAL DE LA CONSTRUCCION HERNAN VALENZUELA", "pap": 0.82472137791286726, "pip": 0.51081530782029949, "lat": -36.781775, "lon": -73.102298 }, "geometry": { "type": "Point", "coordinates": [ -73.102298, -36.781775 ] } },
+{ "type": "Feature", "properties": { "comuna": "CHIGUAYANTE", "local": "ESCUELA BELGICA", "pap": 0.78042328042328046, "pip": 0.46661550268610896, "lat": -36.930408, "lon": -73.028035 }, "geometry": { "type": "Point", "coordinates": [ -73.028035, -36.930408 ] } },
+{ "type": "Feature", "properties": { "comuna": "CONCEPCION", "local": "COLEGIO SANTA EUFRASIA", "pap": 0.79667116509221769, "pip": 0.48509316770186334, "lat": -36.815893, "lon": -73.038818 }, "geometry": { "type": "Point", "coordinates": [ -73.038818, -36.815893 ] } },
+{ "type": "Feature", "properties": { "comuna": "LOTA", "local": "ESCUELA BALDOMERO LILLO FIGUEROA", "pap": 0.810126582278481, "pip": 0.5, "lat": -37.092134, "lon": -73.155851 }, "geometry": { "type": "Point", "coordinates": [ -73.155851, -37.092134 ] } },
+{ "type": "Feature", "properties": { "comuna": "PENCO", "local": "ESCUELA PENCO", "pap": 0.80277574872169466, "pip": 0.49897889720898569, "lat": -36.742913, "lon": -72.991183 }, "geometry": { "type": "Point", "coordinates": [ -72.991183, -36.742913 ] } },
+{ "type": "Feature", "properties": { "comuna": "PENCO", "local": "LICEO PENCOPOLITANO", "pap": 0.81605975723622781, "pip": 0.51254089422028348, "lat": -36.73862, "lon": -73.000365 }, "geometry": { "type": "Point", "coordinates": [ -73.000365, -36.73862 ] } }
+]
+}

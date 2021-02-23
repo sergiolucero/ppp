@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "comuna": "ARAUCO", "local": "ESCUELA BASICA MARE NOSTRUM", "porc_apr": 0.73586652169275335, "porc_pin": 0.55446755898575917, "lat": -37.245538, "lon": -73.316831 }, "geometry": { "type": "Point", "coordinates": [ -73.316831, -37.245538 ] } },
+{ "type": "Feature", "properties": { "comuna": "ARAUCO", "local": "ESCUELA BASICA VICENTE MILLAN IRIARTE", "porc_apr": 0.7253175542418655, "porc_pin": 0.54256063824735057, "lat": -37.245543, "lon": -73.324417 }, "geometry": { "type": "Point", "coordinates": [ -73.324417, -37.245543 ] } },
+{ "type": "Feature", "properties": { "comuna": "ARAUCO", "local": "LICEO SAN FELIPE DE ARAUCO", "porc_apr": 0.74100429121112221, "porc_pin": 0.53081677222704082, "lat": -37.243797, "lon": -73.317566 }, "geometry": { "type": "Point", "coordinates": [ -73.317566, -37.243797 ] } }
+]
+}

@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "comuna": "CAÑETE", "local": "ESCUELA ARTURO PRAT CHACON", "porc_apr": 0.63651339721270384, "porc_pin": 0.62133059504713661, "lat": -37.800728, "lon": -73.400384 }, "geometry": { "type": "Point", "coordinates": [ -73.400384, -37.800728 ] } },
+{ "type": "Feature", "properties": { "comuna": "CAÑETE", "local": "ESCUELA BASICA RENE ANDRADES TOLEDO", "porc_apr": 0.67923506334738937, "porc_pin": 0.58822423882046859, "lat": -37.803086, "lon": -73.393837 }, "geometry": { "type": "Point", "coordinates": [ -73.393837, -37.803086 ] } },
+{ "type": "Feature", "properties": { "comuna": "CAÑETE", "local": "ESCUELA LEONCIO ARANEDA FIGUEROA", "porc_apr": 0.65877595105185471, "porc_pin": 0.5958752134115457, "lat": -37.800307, "lon": -73.39681 }, "geometry": { "type": "Point", "coordinates": [ -73.39681, -37.800307 ] } },
+{ "type": "Feature", "properties": { "comuna": "CAÑETE", "local": "LICEO HUMANISTA CIENTIFICO JOSE DE LA CRUZ MIRANDA CORREA", "porc_apr": 0.64917640168778923, "porc_pin": 0.59826908516135358, "lat": -37.796296, "lon": -73.400033 }, "geometry": { "type": "Point", "coordinates": [ -73.400033, -37.796296 ] } }
+]
+}

@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "comuna": "LOS ALAMOS", "local": "ESCUELA FELIX EYHERAMENDY", "porc_apr": 0.65061003837893783, "porc_pin": 0.5498331963121954, "lat": -37.625148, "lon": -73.460151 }, "geometry": { "type": "Point", "coordinates": [ -73.460151, -37.625148 ] } },
+{ "type": "Feature", "properties": { "comuna": "LOS ALAMOS", "local": "LICEO POLITECNICO CAUPOLICAN", "porc_apr": 0.61839367756722619, "porc_pin": 0.58254136847265259, "lat": -37.62923, "lon": -73.460962 }, "geometry": { "type": "Point", "coordinates": [ -73.460962, -37.62923 ] } }
+]
+}
