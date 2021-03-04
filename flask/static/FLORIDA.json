@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "comuna": "FLORIDA", "local": "ESCUELA BASICA FLORIDA", "porc_apr": 0.71284897063971819, "porc_pin": 0.59036513930063472, "lat": 30.748242, "lon": -90.081192 }, "geometry": { "type": "Point", "coordinates": [ -90.081192, 30.748242 ] } },
-{ "type": "Feature", "properties": { "comuna": "FLORIDA", "local": "LICEO COPIULEMU", "porc_apr": 0.6, "porc_pin": 0.69841269841269837, "lat": -36.899682, "lon": -72.804764 }, "geometry": { "type": "Point", "coordinates": [ -72.804764, -36.899682 ] } },
-{ "type": "Feature", "properties": { "comuna": "FLORIDA", "local": "LICEO LUIS DE ALAVA", "porc_apr": 0.70495954654175486, "porc_pin": 0.61908515418764831, "lat": -36.825854, "lon": -72.65993 }, "geometry": { "type": "Point", "coordinates": [ -72.65993, -36.825854 ] } }
-]
-}

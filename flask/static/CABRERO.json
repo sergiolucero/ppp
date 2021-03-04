@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "comuna": "CABRERO", "local": "ESCUELA ALTO CABRERO", "porc_apr": 0.70483454974628679, "porc_pin": 0.62805542442497764, "lat": -37.033029, "lon": -72.398258 }, "geometry": { "type": "Point", "coordinates": [ -72.398258, -37.033029 ] } },
-{ "type": "Feature", "properties": { "comuna": "CABRERO", "local": "ESCUELA ORLANDO VERA VILLARROEL", "porc_apr": 0.64726583107988689, "porc_pin": 0.59646008114674864, "lat": -37.086795, "lon": -72.440065 }, "geometry": { "type": "Point", "coordinates": [ -72.440065, -37.086795 ] } }
-]
-}

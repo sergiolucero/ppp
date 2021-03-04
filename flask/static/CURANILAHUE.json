@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "comuna": "CURANILAHUE", "local": "ESCUELA COLICO SUR", "porc_apr": 0.75455197712844158, "porc_pin": 0.56449706607960493, "lat": -37.472128, "lon": -73.350627 }, "geometry": { "type": "Point", "coordinates": [ -73.350627, -37.472128 ] } },
-{ "type": "Feature", "properties": { "comuna": "CURANILAHUE", "local": "ESCUELA PABLO NERUDA", "porc_apr": 0.72832489903485231, "porc_pin": 0.56160573905387534, "lat": -37.479888, "lon": -73.33523 }, "geometry": { "type": "Point", "coordinates": [ -73.33523, -37.479888 ] } },
-{ "type": "Feature", "properties": { "comuna": "CURANILAHUE", "local": "ESCUELA RAMIRO ROA GONZALEZ", "porc_apr": 0.7567505508576915, "porc_pin": 0.50379482623861105, "lat": -37.475111, "lon": -73.346001 }, "geometry": { "type": "Point", "coordinates": [ -73.346001, -37.475111 ] } },
-{ "type": "Feature", "properties": { "comuna": "CURANILAHUE", "local": "LICEO POLIVALENTE MARIANO LATORRE", "porc_apr": 0.72129688655972779, "porc_pin": 0.60975328017720343, "lat": -37.473793, "lon": -73.342828 }, "geometry": { "type": "Point", "coordinates": [ -73.342828, -37.473793 ] } }
-]
-}

@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "comuna": "LAJA", "local": "ESCUELA ANDRES ALCAZAR", "porc_apr": 0.72124608916745181, "porc_pin": 0.68303164209058809, "lat": -37.279905, "lon": -72.711055 }, "geometry": { "type": "Point", "coordinates": [ -72.711055, -37.279905 ] } },
-{ "type": "Feature", "properties": { "comuna": "LAJA", "local": "LICEO POLITECNICO HEROES DE LA CONCEPCION", "porc_apr": 0.75016906611446077, "porc_pin": 0.67719288523851529, "lat": -37.278634, "lon": -72.71307 }, "geometry": { "type": "Point", "coordinates": [ -72.71307, -37.278634 ] } }
-]
-}
