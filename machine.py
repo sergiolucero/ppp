@@ -17,6 +17,9 @@ from xgboost import XGBRegressor
 import seaborn as sns
 import matplotlib.pyplot as plt
 #############################
+mconn = sqlite3.connect('stageTwo.db')
+msql = lambda q: pd.read_sql(q, mconn)
+#############################
 cols = ['votos_PINERA', 'votos_KAST', 'votos_GOIC', 'votos_ENRIQUEZ',
        'votos_GUILLIER', 'votos_NAVARRO', 'votos_SANCHEZ', 'votos_ARTES']
 #############################
@@ -52,16 +55,28 @@ def trainer(presi):
     #print(rf.coef_)   # only linear, else appli eli5
     return rf
 
-def train_xgb(data, train_cols, pred_col):
+def train_xgb(data, train_cols, pred_col, verbosity=1):
     
     X = data[train_cols];    y = data[pred_col]
     
-    X_train, X_test, y_train, y_test = train_test_split(feats, labels, 
-                                                        test_size = 0.2)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2)
 
-    xgb_clf = XGBRegressor(verbosity=verbosity, n_estimators = n_estimators)
+    if len(X)>10000:    # nivel local o mesa
+        xgb = XGBRegressor(verbosity=verbosity, n_estimators = 200)
+    else:
+        xgb = XGBRegressor(verbosity=verbosity) #, n_estimators = n_estimators)
 
-    return {'xgb': xgb_clf, 'Xtest': X_test, 'ytest': y_test}
+    xgb.fit(X_train,y_train)
+
+    score = round(100*xgb.score(X_test, y_test),2)
+    ypred = xgb.predict(X_test)
+    delta_votes = int(sum(abs(ypred-y_test)))
+    print('SCORE:', score, 'DELTA:', delta_votes, 'nEst:', xgb.n_estimators)
+
+    return {'xgb': xgb, 
+            'Xtrain': X_train, 'ytrain': y_train,
+            'Xtest': X_test, 'ytest': y_test,
+            'score': score, 'delta_votes': delta_votes}
     
 def xgtrain(presi, verbosity = 0, n_estimators=100):
     
@@ -79,13 +94,12 @@ def xgtrain(presi, verbosity = 0, n_estimators=100):
     TEST_SIZE = 0.30 if len(feats)<10 else 0.25    
     X_train, X_test, y_train, y_test = train_test_split(feats, labels, 
                                                         test_size = TEST_SIZE)
+    xgb = XGBRegressor(verbosity=verbosity, n_estimators = n_estimators)
+    xgb.fit(X_train, y_train)
 
-    xgb_clf = XGBRegressor(verbosity=verbosity, n_estimators = n_estimators)
-    xgb_clf.fit(X_train, y_train)
+    #print('XGB:', round(xgb.score(X_test, y_test),4))
 
-    #print('XGB:', round(xgb_clf.score(X_test, y_test),4))
-
-    return xgb_clf, X_test, y_test, X_train, y_train
+    return xgb, X_test, y_test, X_train, y_train
 
 def regdata(region):
     #return rsql(region)    # ahora viene a nivel de COMUNA.. is that enough?
@@ -120,9 +134,9 @@ def regtrain(region, show=True):
     else:
         #out = explain_weights_df(xgb, feature_names = list(X_test.columns)), xscore
         out = explain_prediction_xgboost(xgb, X_test.iloc[0])    
-    xout = {r': (X_test, y_test), 
+    xout = {'test': (X_test, y_test), 
             'score': xscore, 'out': out, 'xgb': xgb}  # add y_test
-    #return show_prediction(xgb_clf, X_test.iloc[0], show_feature_values=True)
+    #return show_prediction(xgb, X_test.iloc[0], show_feature_values=True)
     return xout
 
 def reg_tpot():   # why the negative results?? 
