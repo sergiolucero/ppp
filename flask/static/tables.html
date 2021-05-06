@@ -1,0 +1,71 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>tbl_name</th>
+      <th>sql</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>equiv</td>
+      <td>CREATE TABLE "equiv" (\n"pre" TEXT,\n  "ple" TEXT,\n  "fw" INTEGER\n)</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>plebi</td>
+      <td>CREATE TABLE "plebi" (\n"region" INTEGER,\n  "comuna" TEXT,\n  "local" TEXT,\n  "mesa" TEXT,\n  "apruebo" INTEGER,\n  "rechazo" INTEGER\n)</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>presi</td>
+      <td>CREATE TABLE "presi" (\n"region" INTEGER,\n  "comuna" TEXT,\n  "local" TEXT,\n  "mesa" TEXT,\n  "votos_g" REAL,\n  "votos_p" REAL\n)</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>plebi2</td>
+      <td>CREATE TABLE "plebi2" (\n"region" INTEGER,\n  "comuna" TEXT,\n  "local" TEXT,\n  "mesa" TEXT,\n  "apruebo" INTEGER,\n  "rechazo" INTEGER\n)</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>cruce1</td>
+      <td>CREATE TABLE "cruce1" (\n"region" INTEGER,\n  "comuna" TEXT,\n  "local" TEXT,\n  "mesa" TEXT,\n  "apruebo" INTEGER,\n  "rechazo" INTEGER,\n  "votos_g" INTEGER,\n  "votos_p" INTEGER,\n  "Pi_vs_Gu" INTEGER,\n  "Rec_vs_Apr" INTEGER\n)</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>cruce_locales</td>
+      <td>CREATE TABLE "cruce_locales" (\n"region" INTEGER,\n  "comuna" TEXT,\n  "local" TEXT,\n  "apruebo" INTEGER,\n  "rechazo" INTEGER,\n  "votos_g" INTEGER,\n  "votos_p" INTEGER,\n  "Pi_vs_Gu" INTEGER,\n  "Rec_vs_Apr" INTEGER,\n  "mesas" INTEGER\n)</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>cruce_locales</td>
+      <td>CREATE INDEX "ix_cruce_locales_region_comuna_local"ON "cruce_locales" ("region","comuna","local")</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>p1</td>
+      <td>CREATE TABLE "p1" (\n"Región" REAL,\n  "Comuna" TEXT,\n  "Local" TEXT,\n  "Mesa" REAL,\n  "Tipo mesa" TEXT,\n  "Mesas Fusionadas" TEXT,\n  "Candidato" TEXT,\n  "votos" REAL\n)</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>presi_v1</td>
+      <td>CREATE TABLE "presi_v1" (\n"region" INTEGER,\n  "comuna" TEXT,\n  "local" TEXT,\n  "mesa" TEXT,\n  "ANTONIO" INTEGER,\n  "PIÑERA" INTEGER,\n  "GUILLIER" INTEGER,\n  "SANCHEZ" INTEGER,\n  "ENRIQUEZ-OMINAMI" INTEGER,\n  "ARTES" INTEGER,\n  "NAVARRO" INTEGER,\n  "Nulos" INTEGER,\n  "Blancos" INTEGER\n)</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>ple_vs_pre</td>
+      <td>CREATE TABLE "ple_vs_pre" (\n"region" INTEGER,\n  "comuna" TEXT,\n  "nMesas" INTEGER,\n  "nVotos" INTEGER,\n  "N" INTEGER,\n  "porc_plebi" REAL,\n  "region2" INTEGER,\n  "comuna2" TEXT,\n  "nMesas2" INTEGER,\n  "votos_presi" INTEGER,\n  "porc_presi" REAL,\n  "premple" REAL\n)</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>cruce_simple</td>
+      <td>CREATE TABLE "cruce_simple" (\n"region" INTEGER,\n  "comuna" TEXT,\n  "local" TEXT,\n  "mesa" TEXT,\n  "apruebo" INTEGER,\n  "rechazo" INTEGER,\n  "votos_g" REAL,\n  "votos_p" REAL\n)</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>penco</td>
+      <td>CREATE TABLE "penco" (\n"nombre" TEXT,\n  "rut" TEXT,\n  "genero" TEXT,\n  "direccion" TEXT,\n  "mesa" TEXT,\n  "region" INTEGER,\n  "comuna" TEXT,\n  "id_comuna" INTEGER\n)</td>
+    </tr>
+  </tbody>
+</table>

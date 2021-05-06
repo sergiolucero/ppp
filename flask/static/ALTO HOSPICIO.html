@@ -1,0 +1,1811 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_47b4f787b59b4909b252785e238a6dc3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_47b4f787b59b4909b252785e238a6dc3" ></div>
+        
+</body>
+<script>    
+    
+            var map_47b4f787b59b4909b252785e238a6dc3 = L.map(
+                "map_47b4f787b59b4909b252785e238a6dc3",
+                {
+                    center: [-20.264271096018497, -70.10112621704],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_47fb407582204905a112d3608e517fe3 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+            var poly_line_80661e841dc9459aabe328cb2d265248 = L.polyline(
+                [[-20.264732155325124, -70.10060790155471]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_f45287a49a8048b4a3192bb83394ea64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e78cfeea5a24459dbb03ce9e24c7adbf = $(`<div id="html_e78cfeea5a24459dbb03ce9e24c7adbf" style="width: 100.0%; height: 100.0%;">CALLE LOS NOGALES</div>`)[0];
+            popup_f45287a49a8048b4a3192bb83394ea64.setContent(html_e78cfeea5a24459dbb03ce9e24c7adbf);
+        
+
+        poly_line_80661e841dc9459aabe328cb2d265248.bindPopup(popup_f45287a49a8048b4a3192bb83394ea64)
+        ;
+
+        
+    
+    
+            var poly_line_0a90a96273e84a3c9eb0b088934dfccb = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_aa94d21c47ae4cfa81f0be69089bb812 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d824fef3c9d4286b0a4f3409cff368e = $(`<div id="html_1d824fef3c9d4286b0a4f3409cff368e" style="width: 100.0%; height: 100.0%;">CALLE LOS NOGALES</div>`)[0];
+            popup_aa94d21c47ae4cfa81f0be69089bb812.setContent(html_1d824fef3c9d4286b0a4f3409cff368e);
+        
+
+        poly_line_0a90a96273e84a3c9eb0b088934dfccb.bindPopup(popup_aa94d21c47ae4cfa81f0be69089bb812)
+        ;
+
+        
+    
+    
+            var poly_line_152ec5a92ca64e76993e248e02de6e66 = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_58aaee42a79d40dfbb4143d87849e5f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1727174b0dc24a38b05c184e1d2170f5 = $(`<div id="html_1727174b0dc24a38b05c184e1d2170f5" style="width: 100.0%; height: 100.0%;">CALLE LOS NOGALES</div>`)[0];
+            popup_58aaee42a79d40dfbb4143d87849e5f3.setContent(html_1727174b0dc24a38b05c184e1d2170f5);
+        
+
+        poly_line_152ec5a92ca64e76993e248e02de6e66.bindPopup(popup_58aaee42a79d40dfbb4143d87849e5f3)
+        ;
+
+        
+    
+    
+            var poly_line_86b02dc6b04c494a87847e0f2438b379 = L.polyline(
+                [[-20.264732630614464, -70.10060782070633], [-20.264732155325124, -70.10060790155471]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_2e8c4caaf5714d89a4edddc62110e0db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c73bb29572249e4a1e3ad98277ccdf8 = $(`<div id="html_8c73bb29572249e4a1e3ad98277ccdf8" style="width: 100.0%; height: 100.0%;">CALLE LOS NOGALES</div>`)[0];
+            popup_2e8c4caaf5714d89a4edddc62110e0db.setContent(html_8c73bb29572249e4a1e3ad98277ccdf8);
+        
+
+        poly_line_86b02dc6b04c494a87847e0f2438b379.bindPopup(popup_2e8c4caaf5714d89a4edddc62110e0db)
+        ;
+
+        
+    
+    
+            var poly_line_c57331cc85454f34ae986f17e924767e = L.polyline(
+                [[-20.26813253202039, -70.09862912588451], [-20.267836488569085, -70.09880967198525]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_67fdaabfb31542419d4ea3fa7271d6c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e4e757aff1234964aff0baeaf5567393 = $(`<div id="html_e4e757aff1234964aff0baeaf5567393" style="width: 100.0%; height: 100.0%;">CALLE LOS NOGALES</div>`)[0];
+            popup_67fdaabfb31542419d4ea3fa7271d6c0.setContent(html_e4e757aff1234964aff0baeaf5567393);
+        
+
+        poly_line_c57331cc85454f34ae986f17e924767e.bindPopup(popup_67fdaabfb31542419d4ea3fa7271d6c0)
+        ;
+
+        
+    
+    
+            var poly_line_8d22cbac97334671b5a5cae1a9372659 = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_070d96dd380b409cb81e54d8addc53ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f761621793404368b778a4ad127ab54e = $(`<div id="html_f761621793404368b778a4ad127ab54e" style="width: 100.0%; height: 100.0%;">CALLE LOS NOGALES</div>`)[0];
+            popup_070d96dd380b409cb81e54d8addc53ad.setContent(html_f761621793404368b778a4ad127ab54e);
+        
+
+        poly_line_8d22cbac97334671b5a5cae1a9372659.bindPopup(popup_070d96dd380b409cb81e54d8addc53ad)
+        ;
+
+        
+    
+    
+            var poly_line_f2bf79bdbde544d0ad0e0c29d29b0fec = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_925859af533d49bcaf638d101a69e6a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_43aeba73d4ec4c729b03f7ece0e5346d = $(`<div id="html_43aeba73d4ec4c729b03f7ece0e5346d" style="width: 100.0%; height: 100.0%;">CALLE LOS NOGALES</div>`)[0];
+            popup_925859af533d49bcaf638d101a69e6a0.setContent(html_43aeba73d4ec4c729b03f7ece0e5346d);
+        
+
+        poly_line_f2bf79bdbde544d0ad0e0c29d29b0fec.bindPopup(popup_925859af533d49bcaf638d101a69e6a0)
+        ;
+
+        
+    
+    
+            var poly_line_67ba4154665e46bf82f414c621cedf7c = L.polyline(
+                [[-20.264810704457457, -70.10057888866596]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_862f5ca65b02441abce213eddc697f07 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c93189d35b724942866dc075481a587f = $(`<div id="html_c93189d35b724942866dc075481a587f" style="width: 100.0%; height: 100.0%;">CALLE LOS NOGALES</div>`)[0];
+            popup_862f5ca65b02441abce213eddc697f07.setContent(html_c93189d35b724942866dc075481a587f);
+        
+
+        poly_line_67ba4154665e46bf82f414c621cedf7c.bindPopup(popup_862f5ca65b02441abce213eddc697f07)
+        ;
+
+        
+    
+    
+            var poly_line_8db624200ba94e54bc70d37e5968f3de = L.polyline(
+                [[-20.27187516620349, -70.09644304599621], [-20.271803753033947, -70.09648380884884]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_7cc2f8707ab94c5b800f8babb1998851 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_673138660f764b28a3ad18ca829fbe8e = $(`<div id="html_673138660f764b28a3ad18ca829fbe8e" style="width: 100.0%; height: 100.0%;">CALLE LOS NOGALES</div>`)[0];
+            popup_7cc2f8707ab94c5b800f8babb1998851.setContent(html_673138660f764b28a3ad18ca829fbe8e);
+        
+
+        poly_line_8db624200ba94e54bc70d37e5968f3de.bindPopup(popup_7cc2f8707ab94c5b800f8babb1998851)
+        ;
+
+        
+    
+    
+            var poly_line_390bd8db9c1d4c8b9789ca63c9e271ac = L.polyline(
+                [[-20.268742595174984, -70.09827926981058]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_de19a7537617496b82b3048dccc87602 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45b6f2dd0c474ed2a769130bf64e487d = $(`<div id="html_45b6f2dd0c474ed2a769130bf64e487d" style="width: 100.0%; height: 100.0%;">CALLE LOS NOGALES</div>`)[0];
+            popup_de19a7537617496b82b3048dccc87602.setContent(html_45b6f2dd0c474ed2a769130bf64e487d);
+        
+
+        poly_line_390bd8db9c1d4c8b9789ca63c9e271ac.bindPopup(popup_de19a7537617496b82b3048dccc87602)
+        ;
+
+        
+    
+    
+            var poly_line_79b4e3d84d444c798c8b0a00bf4f1524 = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_966e45e447e54cae8ee927b49c8be756 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95a094ca1be04dbab32c28411abaf4c0 = $(`<div id="html_95a094ca1be04dbab32c28411abaf4c0" style="width: 100.0%; height: 100.0%;">CALLE LOS NOGALES</div>`)[0];
+            popup_966e45e447e54cae8ee927b49c8be756.setContent(html_95a094ca1be04dbab32c28411abaf4c0);
+        
+
+        poly_line_79b4e3d84d444c798c8b0a00bf4f1524.bindPopup(popup_966e45e447e54cae8ee927b49c8be756)
+        ;
+
+        
+    
+    
+            var poly_line_886602472dff4e8e8d0fe5e274b3ac52 = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_0ea34c3d096c4b2e8248aa5dad03caef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2fcd6e86903483a85d792e384de9e6a = $(`<div id="html_c2fcd6e86903483a85d792e384de9e6a" style="width: 100.0%; height: 100.0%;">CALLE LOS NOGALES</div>`)[0];
+            popup_0ea34c3d096c4b2e8248aa5dad03caef.setContent(html_c2fcd6e86903483a85d792e384de9e6a);
+        
+
+        poly_line_886602472dff4e8e8d0fe5e274b3ac52.bindPopup(popup_0ea34c3d096c4b2e8248aa5dad03caef)
+        ;
+
+        
+    
+    
+            var poly_line_5120e34b2a964ec99585f8696d917b64 = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_9a3ce123f52f4187985d0cbd1bb596f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53d465608c6749f896f9af7e944ac005 = $(`<div id="html_53d465608c6749f896f9af7e944ac005" style="width: 100.0%; height: 100.0%;">CALLE LOS NOGALES</div>`)[0];
+            popup_9a3ce123f52f4187985d0cbd1bb596f8.setContent(html_53d465608c6749f896f9af7e944ac005);
+        
+
+        poly_line_5120e34b2a964ec99585f8696d917b64.bindPopup(popup_9a3ce123f52f4187985d0cbd1bb596f8)
+        ;
+
+        
+    
+    
+            var poly_line_d72e50ac7c6140778480b69c6f83b16c = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_b5136bb7cd52416abd4880fd6fbcacff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13954f1fe20a4e1c86c346660e26bf7a = $(`<div id="html_13954f1fe20a4e1c86c346660e26bf7a" style="width: 100.0%; height: 100.0%;">CALLE LOS NOGALES</div>`)[0];
+            popup_b5136bb7cd52416abd4880fd6fbcacff.setContent(html_13954f1fe20a4e1c86c346660e26bf7a);
+        
+
+        poly_line_d72e50ac7c6140778480b69c6f83b16c.bindPopup(popup_b5136bb7cd52416abd4880fd6fbcacff)
+        ;
+
+        
+    
+    
+            var poly_line_7d109138e17a4e5d95170dbd03accfd7 = L.polyline(
+                [[-20.26731180399946, -70.09911554474625], [-20.266962689145714, -70.09931684731995]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_722a84b1955f4fb1b5421a5a2c621adb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e3e9429837b4fbfb7794d627f7b37e5 = $(`<div id="html_7e3e9429837b4fbfb7794d627f7b37e5" style="width: 100.0%; height: 100.0%;">CALLE LOS NOGALES</div>`)[0];
+            popup_722a84b1955f4fb1b5421a5a2c621adb.setContent(html_7e3e9429837b4fbfb7794d627f7b37e5);
+        
+
+        poly_line_7d109138e17a4e5d95170dbd03accfd7.bindPopup(popup_722a84b1955f4fb1b5421a5a2c621adb)
+        ;
+
+        
+    
+    
+            var poly_line_20c2ad12f0cf455aa5eeba4ea086a091 = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_b908839862df49ae91b657a95190581f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95accf1967644b60b2154148cdb2b74d = $(`<div id="html_95accf1967644b60b2154148cdb2b74d" style="width: 100.0%; height: 100.0%;">CALLE LOS ALMENDROS</div>`)[0];
+            popup_b908839862df49ae91b657a95190581f.setContent(html_95accf1967644b60b2154148cdb2b74d);
+        
+
+        poly_line_20c2ad12f0cf455aa5eeba4ea086a091.bindPopup(popup_b908839862df49ae91b657a95190581f)
+        ;
+
+        
+    
+    
+            var poly_line_913436c3205842cc8da3e2a57c959561 = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_4a5ddea1bb1943f68a354e35ae4c9829 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70d35bf45897497cb3d4fbb5a6824c1e = $(`<div id="html_70d35bf45897497cb3d4fbb5a6824c1e" style="width: 100.0%; height: 100.0%;">CALLE LOS ALMENDROS</div>`)[0];
+            popup_4a5ddea1bb1943f68a354e35ae4c9829.setContent(html_70d35bf45897497cb3d4fbb5a6824c1e);
+        
+
+        poly_line_913436c3205842cc8da3e2a57c959561.bindPopup(popup_4a5ddea1bb1943f68a354e35ae4c9829)
+        ;
+
+        
+    
+    
+            var poly_line_41200a041837488e8c2e5f257b435f52 = L.polyline(
+                [[-20.265851799042427, -70.10218102139879]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_5780962678b84c6898c8a445c20516d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17358196858848d1b72b0107fc4980f3 = $(`<div id="html_17358196858848d1b72b0107fc4980f3" style="width: 100.0%; height: 100.0%;">CALLE LOS ALMENDROS</div>`)[0];
+            popup_5780962678b84c6898c8a445c20516d2.setContent(html_17358196858848d1b72b0107fc4980f3);
+        
+
+        poly_line_41200a041837488e8c2e5f257b435f52.bindPopup(popup_5780962678b84c6898c8a445c20516d2)
+        ;
+
+        
+    
+    
+            var poly_line_66147bb8192d4c39be25973930ffa768 = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_05adbfdee0094c0d9a437fad9f2aef25 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58955ed994f242d2afdd6b9400e66641 = $(`<div id="html_58955ed994f242d2afdd6b9400e66641" style="width: 100.0%; height: 100.0%;">CALLE LOS ALMENDROS</div>`)[0];
+            popup_05adbfdee0094c0d9a437fad9f2aef25.setContent(html_58955ed994f242d2afdd6b9400e66641);
+        
+
+        poly_line_66147bb8192d4c39be25973930ffa768.bindPopup(popup_05adbfdee0094c0d9a437fad9f2aef25)
+        ;
+
+        
+    
+    
+            var poly_line_070c8ca3b8684394bf242aba6f13055b = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_80cbbc7e5cf348e384b6882cfbccd631 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6de569161ee043269ba0933eaffaae19 = $(`<div id="html_6de569161ee043269ba0933eaffaae19" style="width: 100.0%; height: 100.0%;">CALLE LOS ALMENDROS</div>`)[0];
+            popup_80cbbc7e5cf348e384b6882cfbccd631.setContent(html_6de569161ee043269ba0933eaffaae19);
+        
+
+        poly_line_070c8ca3b8684394bf242aba6f13055b.bindPopup(popup_80cbbc7e5cf348e384b6882cfbccd631)
+        ;
+
+        
+    
+    
+            var poly_line_0934ffc2fa0746de90f76d064bb6e6eb = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_341fb251ec2a4ceeba5cd4647c32d00b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a28ab742971d4c93b3bbc65552aab703 = $(`<div id="html_a28ab742971d4c93b3bbc65552aab703" style="width: 100.0%; height: 100.0%;">CALLE LOS ALMENDROS</div>`)[0];
+            popup_341fb251ec2a4ceeba5cd4647c32d00b.setContent(html_a28ab742971d4c93b3bbc65552aab703);
+        
+
+        poly_line_0934ffc2fa0746de90f76d064bb6e6eb.bindPopup(popup_341fb251ec2a4ceeba5cd4647c32d00b)
+        ;
+
+        
+    
+    
+            var poly_line_7bbcfc5c80504ad19cf5749a98444a41 = L.polyline(
+                [[-20.265851799042427, -70.10218102139879]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_a0ffaa42d72741199d49e7b493559b80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b3c62e4a51f4a1dbb876fe1d26d0eb5 = $(`<div id="html_5b3c62e4a51f4a1dbb876fe1d26d0eb5" style="width: 100.0%; height: 100.0%;">CALLE LOS ALMENDROS</div>`)[0];
+            popup_a0ffaa42d72741199d49e7b493559b80.setContent(html_5b3c62e4a51f4a1dbb876fe1d26d0eb5);
+        
+
+        poly_line_7bbcfc5c80504ad19cf5749a98444a41.bindPopup(popup_a0ffaa42d72741199d49e7b493559b80)
+        ;
+
+        
+    
+    
+            var poly_line_6781b31fc8c54d76ac6eb6bb7d371906 = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_16bc9547879d42a09d39eea0d0da2566 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5153c052043b447d864d70f718cfd35e = $(`<div id="html_5153c052043b447d864d70f718cfd35e" style="width: 100.0%; height: 100.0%;">CALLE LOS ALMENDROS</div>`)[0];
+            popup_16bc9547879d42a09d39eea0d0da2566.setContent(html_5153c052043b447d864d70f718cfd35e);
+        
+
+        poly_line_6781b31fc8c54d76ac6eb6bb7d371906.bindPopup(popup_16bc9547879d42a09d39eea0d0da2566)
+        ;
+
+        
+    
+    
+            var poly_line_e525aa1aeddb4970b0c9fbf9a4fe5809 = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_6b24f42c63494cc9976b1c08af068d27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1513e2bd3774d9fa709294e5a8218cc = $(`<div id="html_c1513e2bd3774d9fa709294e5a8218cc" style="width: 100.0%; height: 100.0%;">CALLE LOS ALMENDROS</div>`)[0];
+            popup_6b24f42c63494cc9976b1c08af068d27.setContent(html_c1513e2bd3774d9fa709294e5a8218cc);
+        
+
+        poly_line_e525aa1aeddb4970b0c9fbf9a4fe5809.bindPopup(popup_6b24f42c63494cc9976b1c08af068d27)
+        ;
+
+        
+    
+    
+            var poly_line_935ea342a39e47c79f3512ee9c26ba22 = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_b8a1e655e23a4314afefee3b9fae5b9d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e4fea7bf7da4378b7ada98ed1341f92 = $(`<div id="html_8e4fea7bf7da4378b7ada98ed1341f92" style="width: 100.0%; height: 100.0%;">CALLE LOS ALMENDROS</div>`)[0];
+            popup_b8a1e655e23a4314afefee3b9fae5b9d.setContent(html_8e4fea7bf7da4378b7ada98ed1341f92);
+        
+
+        poly_line_935ea342a39e47c79f3512ee9c26ba22.bindPopup(popup_b8a1e655e23a4314afefee3b9fae5b9d)
+        ;
+
+        
+    
+    
+            var poly_line_cd8e8ab5225e428fa2928ed17cde6509 = L.polyline(
+                [[-20.265931426270615, -70.10213433325852]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_8373af1431234bb2b0de7f113340e045 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a7cbd05e0a444314a94663f5ef3c81c9 = $(`<div id="html_a7cbd05e0a444314a94663f5ef3c81c9" style="width: 100.0%; height: 100.0%;">CALLE LOS ALMENDROS</div>`)[0];
+            popup_8373af1431234bb2b0de7f113340e045.setContent(html_a7cbd05e0a444314a94663f5ef3c81c9);
+        
+
+        poly_line_cd8e8ab5225e428fa2928ed17cde6509.bindPopup(popup_8373af1431234bb2b0de7f113340e045)
+        ;
+
+        
+    
+    
+            var poly_line_133b5991f290483fb8c24e978a3c0bf9 = L.polyline(
+                [[-20.269611553460518, -70.10000013556946]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_2f5d5c98ec6f48bfa4b6bbe89d25e6d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7bf53d2525734d88a6086b33e0228068 = $(`<div id="html_7bf53d2525734d88a6086b33e0228068" style="width: 100.0%; height: 100.0%;">CALLE LOS ALMENDROS</div>`)[0];
+            popup_2f5d5c98ec6f48bfa4b6bbe89d25e6d2.setContent(html_7bf53d2525734d88a6086b33e0228068);
+        
+
+        poly_line_133b5991f290483fb8c24e978a3c0bf9.bindPopup(popup_2f5d5c98ec6f48bfa4b6bbe89d25e6d2)
+        ;
+
+        
+    
+    
+            var poly_line_814ccdf4445c4626b35e93fb0b2a4fdf = L.polyline(
+                [[-20.268726062441697, -70.10051354341557]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_fa5f63b3ec934b47a4feeaa429c4fc89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eec154d755b445b4b6c8be3e9e05436e = $(`<div id="html_eec154d755b445b4b6c8be3e9e05436e" style="width: 100.0%; height: 100.0%;">CALLE LOS ALMENDROS</div>`)[0];
+            popup_fa5f63b3ec934b47a4feeaa429c4fc89.setContent(html_eec154d755b445b4b6c8be3e9e05436e);
+        
+
+        poly_line_814ccdf4445c4626b35e93fb0b2a4fdf.bindPopup(popup_fa5f63b3ec934b47a4feeaa429c4fc89)
+        ;
+
+        
+    
+    
+            var poly_line_33c5ded8eb7e4384b6dca90a7d11458f = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_f2fce5bc269c43689073f68f9b199812 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8400eb59e41d4da2944c3166798d2978 = $(`<div id="html_8400eb59e41d4da2944c3166798d2978" style="width: 100.0%; height: 100.0%;">CALLE LOS ALMENDROS</div>`)[0];
+            popup_f2fce5bc269c43689073f68f9b199812.setContent(html_8400eb59e41d4da2944c3166798d2978);
+        
+
+        poly_line_33c5ded8eb7e4384b6dca90a7d11458f.bindPopup(popup_f2fce5bc269c43689073f68f9b199812)
+        ;
+
+        
+    
+    
+            var poly_line_0683d8edad9f4ccbbda53c3680b34096 = L.polyline(
+                [[-20.276480406067606, -70.10115773518729], [-20.276399918011528, -70.10113236496703], [-20.276379875621256, -70.10113001317761], [-20.276363239213552, -70.1011318466391], [-20.27634431248523, -70.10113868371674], [-20.276304593397274, -70.10116525678116]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_7078a6b836964e94b06b6d4f8610a9fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb4bd380528a45668e49e2405dd9f07c = $(`<div id="html_bb4bd380528a45668e49e2405dd9f07c" style="width: 100.0%; height: 100.0%;">CALLE UNO</div>`)[0];
+            popup_7078a6b836964e94b06b6d4f8610a9fd.setContent(html_bb4bd380528a45668e49e2405dd9f07c);
+        
+
+        poly_line_0683d8edad9f4ccbbda53c3680b34096.bindPopup(popup_7078a6b836964e94b06b6d4f8610a9fd)
+        ;
+
+        
+    
+    
+            var poly_line_2dbc3deb422c44eabc0dcbf817efefe2 = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_a4e538d142bc446abb41ac430dd4fd89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a228135bed449e58d81f9472cf000bd = $(`<div id="html_6a228135bed449e58d81f9472cf000bd" style="width: 100.0%; height: 100.0%;">CALLE UNO</div>`)[0];
+            popup_a4e538d142bc446abb41ac430dd4fd89.setContent(html_6a228135bed449e58d81f9472cf000bd);
+        
+
+        poly_line_2dbc3deb422c44eabc0dcbf817efefe2.bindPopup(popup_a4e538d142bc446abb41ac430dd4fd89)
+        ;
+
+        
+    
+    
+            var poly_line_98ce0e2c313346ea8d8bbd5d6ffb6dd1 = L.polyline(
+                [[-20.275656764502752, -70.10285327474335], [-20.27599086903963, -70.10172891638427]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_17dd028503d245018dd827cf3e0c27a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3389cdec651645a7a8170c7172cd383d = $(`<div id="html_3389cdec651645a7a8170c7172cd383d" style="width: 100.0%; height: 100.0%;">CALLE UNO</div>`)[0];
+            popup_17dd028503d245018dd827cf3e0c27a4.setContent(html_3389cdec651645a7a8170c7172cd383d);
+        
+
+        poly_line_98ce0e2c313346ea8d8bbd5d6ffb6dd1.bindPopup(popup_17dd028503d245018dd827cf3e0c27a4)
+        ;
+
+        
+    
+    
+            var poly_line_e0ede187d0544167b957d570a1d1da82 = L.polyline(
+                [[-20.27467612141484, -70.10295952837346], [-20.27486356712082, -70.10232171374196], [-20.27500447862346, -70.10184883608483], [-20.27503680626897, -70.10175647310393], [-20.27507543022949, -70.10167123915313], [-20.275104678797792, -70.10162510168014], [-20.27518231513932, -70.10153147207473], [-20.275248840199907, -70.10147776629546], [-20.27526470569836, -70.10146924757163], [-20.27526805103642, -70.1014699159182]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_6460ef980d584421a003b903f07c0961 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9371100bfe2f4e6e979d792dfba2be6a = $(`<div id="html_9371100bfe2f4e6e979d792dfba2be6a" style="width: 100.0%; height: 100.0%;">CALLE UNO</div>`)[0];
+            popup_6460ef980d584421a003b903f07c0961.setContent(html_9371100bfe2f4e6e979d792dfba2be6a);
+        
+
+        poly_line_e0ede187d0544167b957d570a1d1da82.bindPopup(popup_6460ef980d584421a003b903f07c0961)
+        ;
+
+        
+    
+    
+            var poly_line_0ed59ca373374bee9c0fa6fefc09dbde = L.polyline(
+                [[-20.276315612715024, -70.10111491609096], [-20.276368316170448, -70.10104619766666], [-20.27647127766344, -70.10096064481395], [-20.276485467010385, -70.10094885442585], [-20.276499645401607, -70.10093167324771], [-20.27652393050708, -70.10090224443901], [-20.276576403006334, -70.10083865719163], [-20.276647530006482, -70.10074225538523], [-20.276712968267134, -70.10065105931591], [-20.276721687973534, -70.10063890600843], [-20.27679074199753, -70.10054264164425], [-20.27679280310999, -70.10053976883198], [-20.27679316039194, -70.10053968079708], [-20.276797727533914, -70.10053855071645], [-20.276806553408928, -70.10053636691201], [-20.27682624941658, -70.10053997274954]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_8858d5a415774a1bbb879cfc4127a269 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79e7efbd3aba4a1cb7b0929013649bc6 = $(`<div id="html_79e7efbd3aba4a1cb7b0929013649bc6" style="width: 100.0%; height: 100.0%;">CALLE UNO</div>`)[0];
+            popup_8858d5a415774a1bbb879cfc4127a269.setContent(html_79e7efbd3aba4a1cb7b0929013649bc6);
+        
+
+        poly_line_0ed59ca373374bee9c0fa6fefc09dbde.bindPopup(popup_8858d5a415774a1bbb879cfc4127a269)
+        ;
+
+        
+    
+    
+            var poly_line_0ca8da69863a4ebd891a88e8b42a94d0 = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_24b4060044c64cfda76fb63e2b00a19e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8958f2c4e503450db0cffb1b4270aaf4 = $(`<div id="html_8958f2c4e503450db0cffb1b4270aaf4" style="width: 100.0%; height: 100.0%;">CALLE UNO</div>`)[0];
+            popup_24b4060044c64cfda76fb63e2b00a19e.setContent(html_8958f2c4e503450db0cffb1b4270aaf4);
+        
+
+        poly_line_0ca8da69863a4ebd891a88e8b42a94d0.bindPopup(popup_24b4060044c64cfda76fb63e2b00a19e)
+        ;
+
+        
+    
+    
+            var poly_line_d032f683dece45d98260f6132bc1fee0 = L.polyline(
+                [[-20.275331016689456, -70.10398974778232]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_1d95fe7219d94ab3ab444a195a28b4eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e2385dc74834797bf1535b771afdc65 = $(`<div id="html_5e2385dc74834797bf1535b771afdc65" style="width: 100.0%; height: 100.0%;">CALLE UNO</div>`)[0];
+            popup_1d95fe7219d94ab3ab444a195a28b4eb.setContent(html_5e2385dc74834797bf1535b771afdc65);
+        
+
+        poly_line_d032f683dece45d98260f6132bc1fee0.bindPopup(popup_1d95fe7219d94ab3ab444a195a28b4eb)
+        ;
+
+        
+    
+    
+            var poly_line_c861e8ab43704accb2fe3c3b3ad78601 = L.polyline(
+                [[-20.274480140192612, -70.10687932981067]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_e6561de70a3d4e749d84c1613e88a8b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9614f972eeb94ac683473cadf61e694a = $(`<div id="html_9614f972eeb94ac683473cadf61e694a" style="width: 100.0%; height: 100.0%;">CALLE UNO</div>`)[0];
+            popup_e6561de70a3d4e749d84c1613e88a8b0.setContent(html_9614f972eeb94ac683473cadf61e694a);
+        
+
+        poly_line_c861e8ab43704accb2fe3c3b3ad78601.bindPopup(popup_e6561de70a3d4e749d84c1613e88a8b0)
+        ;
+
+        
+    
+    
+            var poly_line_5c9e2db073684181aa7f902a1f151d03 = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_bafe3bae6e7e49c7b7293e7cca28e6aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5ace74928e348fe87cb8c4acf6686b6 = $(`<div id="html_d5ace74928e348fe87cb8c4acf6686b6" style="width: 100.0%; height: 100.0%;">CALLE UNO</div>`)[0];
+            popup_bafe3bae6e7e49c7b7293e7cca28e6aa.setContent(html_d5ace74928e348fe87cb8c4acf6686b6);
+        
+
+        poly_line_5c9e2db073684181aa7f902a1f151d03.bindPopup(popup_bafe3bae6e7e49c7b7293e7cca28e6aa)
+        ;
+
+        
+    
+    
+            var poly_line_006ea66e738947a8aa20481e2b762a94 = L.polyline(
+                [[-20.276065045016328, -70.10149955493267], [-20.276105955672524, -70.10140370918343], [-20.276119212239607, -70.1013836947189], [-20.2761636392581, -70.1013247382868], [-20.276212004806705, -70.10126504343955], [-20.276290947542304, -70.10117438635939], [-20.276304593397274, -70.10116525678116]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_08d036f3ef5a47c8b2cd2786469a5f38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3648e7f2635143dbb988e1d3eef1c1c7 = $(`<div id="html_3648e7f2635143dbb988e1d3eef1c1c7" style="width: 100.0%; height: 100.0%;">CALLE UNO</div>`)[0];
+            popup_08d036f3ef5a47c8b2cd2786469a5f38.setContent(html_3648e7f2635143dbb988e1d3eef1c1c7);
+        
+
+        poly_line_006ea66e738947a8aa20481e2b762a94.bindPopup(popup_08d036f3ef5a47c8b2cd2786469a5f38)
+        ;
+
+        
+    
+    
+            var poly_line_16686379be3c4f02b2993db7ca3b3dd1 = L.polyline(
+                [[-20.27510437207128, -70.09539718063003], [-20.275117405420293, -70.09536689303192], [-20.275123729547694, -70.09535219479724], [-20.275131731401256, -70.09533359877254], [-20.275138133052337, -70.09531872177313], [-20.275150993654258, -70.0952888348236]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_2b43bf7b5cf14533b0ca5c653c624c2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f11fc89b2bc4298bb6b0456b1c75dfa = $(`<div id="html_4f11fc89b2bc4298bb6b0456b1c75dfa" style="width: 100.0%; height: 100.0%;">CALLE LOS CONDORES</div>`)[0];
+            popup_2b43bf7b5cf14533b0ca5c653c624c2d.setContent(html_4f11fc89b2bc4298bb6b0456b1c75dfa);
+        
+
+        poly_line_16686379be3c4f02b2993db7ca3b3dd1.bindPopup(popup_2b43bf7b5cf14533b0ca5c653c624c2d)
+        ;
+
+        
+    
+    
+            var poly_line_0db865ca8c454c89bf2534b7a57250f4 = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_095631aa5897423ba826eeb716aabada = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ff8cd8e70f34dd383f15059fd5cb341 = $(`<div id="html_2ff8cd8e70f34dd383f15059fd5cb341" style="width: 100.0%; height: 100.0%;">CALLE LOS CONDORES</div>`)[0];
+            popup_095631aa5897423ba826eeb716aabada.setContent(html_2ff8cd8e70f34dd383f15059fd5cb341);
+        
+
+        poly_line_0db865ca8c454c89bf2534b7a57250f4.bindPopup(popup_095631aa5897423ba826eeb716aabada)
+        ;
+
+        
+    
+    
+            var poly_line_be187bc8c9244638863f6a6998bd2827 = L.polyline(
+                [[-20.27504719621307, -70.0955300549353]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_24457619e6d94f41b48fcdd04b5cec2e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59f896810bc34b3f9a29b2fa18785996 = $(`<div id="html_59f896810bc34b3f9a29b2fa18785996" style="width: 100.0%; height: 100.0%;">CALLE LOS CONDORES</div>`)[0];
+            popup_24457619e6d94f41b48fcdd04b5cec2e.setContent(html_59f896810bc34b3f9a29b2fa18785996);
+        
+
+        poly_line_be187bc8c9244638863f6a6998bd2827.bindPopup(popup_24457619e6d94f41b48fcdd04b5cec2e)
+        ;
+
+        
+    
+    
+            var poly_line_fa0ee64fb6a64c1286e750567870e2c6 = L.polyline(
+                [[-20.27501238020713, -70.09535183008124], [-20.275023588371567, -70.09532393739165], [-20.27502746964387, -70.0953142778074], [-20.27503501056975, -70.09529551200113], [-20.27504346998989, -70.09527445908414], [-20.275055614342413, -70.09524423706303]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_b24bd58512a64f7cb7812b2293c2f7a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_238c46b16dec4332a41b84a06b5f135f = $(`<div id="html_238c46b16dec4332a41b84a06b5f135f" style="width: 100.0%; height: 100.0%;">CALLE LOS CONDORES</div>`)[0];
+            popup_b24bd58512a64f7cb7812b2293c2f7a5.setContent(html_238c46b16dec4332a41b84a06b5f135f);
+        
+
+        poly_line_fa0ee64fb6a64c1286e750567870e2c6.bindPopup(popup_b24bd58512a64f7cb7812b2293c2f7a5)
+        ;
+
+        
+    
+    
+            var poly_line_71149369084040b2a22bb3b3cc92c140 = L.polyline(
+                [[-20.27499667900075, -70.09539090320283]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_649baf1a6ebd4c81a6c9a01f78a03829 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a9bebb1d9d1455ebe02f83e2d3d454a = $(`<div id="html_0a9bebb1d9d1455ebe02f83e2d3d454a" style="width: 100.0%; height: 100.0%;">CALLE LOS CONDORES</div>`)[0];
+            popup_649baf1a6ebd4c81a6c9a01f78a03829.setContent(html_0a9bebb1d9d1455ebe02f83e2d3d454a);
+        
+
+        poly_line_71149369084040b2a22bb3b3cc92c140.bindPopup(popup_649baf1a6ebd4c81a6c9a01f78a03829)
+        ;
+
+        
+    
+    
+            var poly_line_408bcb43310d4b6481c1886ec3efc112 = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_fa2780d682784628937a77cea85f2f9a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48ae6e1cff3d405b90f944bc3dbf50da = $(`<div id="html_48ae6e1cff3d405b90f944bc3dbf50da" style="width: 100.0%; height: 100.0%;">CALLE LOS CONDORES</div>`)[0];
+            popup_fa2780d682784628937a77cea85f2f9a.setContent(html_48ae6e1cff3d405b90f944bc3dbf50da);
+        
+
+        poly_line_408bcb43310d4b6481c1886ec3efc112.bindPopup(popup_fa2780d682784628937a77cea85f2f9a)
+        ;
+
+        
+    
+    
+            var poly_line_7d94c9125db04d1f951693f69211a475 = L.polyline(
+                [[-20.271937709369567, -70.10298883231636], [-20.272011855263084, -70.10292894702624]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_8b42393a810d4c6a81dc8ceee0812d53 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_917ffcb5779d4261adfe11a79cb30683 = $(`<div id="html_917ffcb5779d4261adfe11a79cb30683" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_8b42393a810d4c6a81dc8ceee0812d53.setContent(html_917ffcb5779d4261adfe11a79cb30683);
+        
+
+        poly_line_7d94c9125db04d1f951693f69211a475.bindPopup(popup_8b42393a810d4c6a81dc8ceee0812d53)
+        ;
+
+        
+    
+    
+            var poly_line_25c9830ddcb24498a4d811028a4c1ad0 = L.polyline(
+                [[-20.27146101975458, -70.10456468842878]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_7d081de8ee7c41a6a1d93fb1bc5391d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7bab4de0926a4462afde9ca946c90421 = $(`<div id="html_7bab4de0926a4462afde9ca946c90421" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_7d081de8ee7c41a6a1d93fb1bc5391d7.setContent(html_7bab4de0926a4462afde9ca946c90421);
+        
+
+        poly_line_25c9830ddcb24498a4d811028a4c1ad0.bindPopup(popup_7d081de8ee7c41a6a1d93fb1bc5391d7)
+        ;
+
+        
+    
+    
+            var poly_line_433b7b3ca3f04edabfd90cde15207d91 = L.polyline(
+                [[-20.27499960554462, -70.09564065371643], [-20.275009482313795, -70.09561770086262], [-20.275009932291997, -70.09561665522362]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_9bb40037b6124f4182da9e1f739d6ab1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59e06e437c14463c82bd066fef5b29cd = $(`<div id="html_59e06e437c14463c82bd066fef5b29cd" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_9bb40037b6124f4182da9e1f739d6ab1.setContent(html_59e06e437c14463c82bd066fef5b29cd);
+        
+
+        poly_line_433b7b3ca3f04edabfd90cde15207d91.bindPopup(popup_9bb40037b6124f4182da9e1f739d6ab1)
+        ;
+
+        
+    
+    
+            var poly_line_4739bd5579854a86ba521f855325eddd = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_feae5702031649d2aaa88384fc2a74f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b0251bd53754922b551509e85e6c564 = $(`<div id="html_2b0251bd53754922b551509e85e6c564" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_feae5702031649d2aaa88384fc2a74f7.setContent(html_2b0251bd53754922b551509e85e6c564);
+        
+
+        poly_line_4739bd5579854a86ba521f855325eddd.bindPopup(popup_feae5702031649d2aaa88384fc2a74f7)
+        ;
+
+        
+    
+    
+            var poly_line_44e1c57dec214ee6911adfb5862fdc0f = L.polyline(
+                [[-20.26610619647455, -70.10906340016768]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_1f532978fe8041019a650162be3190f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60daaeb1b45247b7b3757fa2a690489b = $(`<div id="html_60daaeb1b45247b7b3757fa2a690489b" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_1f532978fe8041019a650162be3190f6.setContent(html_60daaeb1b45247b7b3757fa2a690489b);
+        
+
+        poly_line_44e1c57dec214ee6911adfb5862fdc0f.bindPopup(popup_1f532978fe8041019a650162be3190f6)
+        ;
+
+        
+    
+    
+            var poly_line_14281b9fafa241e695f6c77ed000df00 = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_26b0589127704d59bc779cde85c77c34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bcd17e1e11f7428fb7e199c61b3ffb6b = $(`<div id="html_bcd17e1e11f7428fb7e199c61b3ffb6b" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_26b0589127704d59bc779cde85c77c34.setContent(html_bcd17e1e11f7428fb7e199c61b3ffb6b);
+        
+
+        poly_line_14281b9fafa241e695f6c77ed000df00.bindPopup(popup_26b0589127704d59bc779cde85c77c34)
+        ;
+
+        
+    
+    
+            var poly_line_be1bbde3815d4dbda436f534e9d0f160 = L.polyline(
+                [[-20.27154616025227, -70.10410281872714]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_4603f4ea152d47d69c9cff24f094b7f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2aa9f39635384b97bbd5d46258247e40 = $(`<div id="html_2aa9f39635384b97bbd5d46258247e40" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_4603f4ea152d47d69c9cff24f094b7f6.setContent(html_2aa9f39635384b97bbd5d46258247e40);
+        
+
+        poly_line_be1bbde3815d4dbda436f534e9d0f160.bindPopup(popup_4603f4ea152d47d69c9cff24f094b7f6)
+        ;
+
+        
+    
+    
+            var poly_line_33a43a2414ba456daac4589c291a65b1 = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_6d9d9c022514499aa562fa3b6b1f3f2e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_290286cbb00342c198b7e4f579fc8172 = $(`<div id="html_290286cbb00342c198b7e4f579fc8172" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_6d9d9c022514499aa562fa3b6b1f3f2e.setContent(html_290286cbb00342c198b7e4f579fc8172);
+        
+
+        poly_line_33a43a2414ba456daac4589c291a65b1.bindPopup(popup_6d9d9c022514499aa562fa3b6b1f3f2e)
+        ;
+
+        
+    
+    
+            var poly_line_1c47cc8e335d40d19ca552939dce50b7 = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_8921139ae0bd4a33895fb963dd063384 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3991ee4fbeb44e0b8f240e13e7650a7f = $(`<div id="html_3991ee4fbeb44e0b8f240e13e7650a7f" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_8921139ae0bd4a33895fb963dd063384.setContent(html_3991ee4fbeb44e0b8f240e13e7650a7f);
+        
+
+        poly_line_1c47cc8e335d40d19ca552939dce50b7.bindPopup(popup_8921139ae0bd4a33895fb963dd063384)
+        ;
+
+        
+    
+    
+            var poly_line_9df6f597f9e0441585f7c128499a788e = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_b349476771fa4f32a713079f3c907bb9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_825dfc89f1444c7ebaecf456c425315e = $(`<div id="html_825dfc89f1444c7ebaecf456c425315e" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_b349476771fa4f32a713079f3c907bb9.setContent(html_825dfc89f1444c7ebaecf456c425315e);
+        
+
+        poly_line_9df6f597f9e0441585f7c128499a788e.bindPopup(popup_b349476771fa4f32a713079f3c907bb9)
+        ;
+
+        
+    
+    
+            var poly_line_9c8889f69fb64c6ba45e4af6d69de466 = L.polyline(
+                [[-20.266265760743767, -70.10894221563922], [-20.265828327162637, -70.10894211772286], [-20.26554130049643, -70.10896415878666], [-20.265373357277937, -70.10902015706654], [-20.265255111794595, -70.10908086072185]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_ba498ef5891d440fa4b6157082fa632a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_134b39a8fe064e65a33847b4a299e9c9 = $(`<div id="html_134b39a8fe064e65a33847b4a299e9c9" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_ba498ef5891d440fa4b6157082fa632a.setContent(html_134b39a8fe064e65a33847b4a299e9c9);
+        
+
+        poly_line_9c8889f69fb64c6ba45e4af6d69de466.bindPopup(popup_ba498ef5891d440fa4b6157082fa632a)
+        ;
+
+        
+    
+    
+            var poly_line_d30cada1512e46b180896a37cff81fbf = L.polyline(
+                [[-20.270447915367598, -70.1068041309399]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_5c6e9c5b29c44b04a0b6ab9612c157ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86329156ba6442a990f212dd7ab0f728 = $(`<div id="html_86329156ba6442a990f212dd7ab0f728" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_5c6e9c5b29c44b04a0b6ab9612c157ac.setContent(html_86329156ba6442a990f212dd7ab0f728);
+        
+
+        poly_line_d30cada1512e46b180896a37cff81fbf.bindPopup(popup_5c6e9c5b29c44b04a0b6ab9612c157ac)
+        ;
+
+        
+    
+    
+            var poly_line_79f40b197ff7464a8586d54ee547f5b0 = L.polyline(
+                [[-20.270922356460026, -70.10641082155907]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_e47f6dce42b643d9a27030df7fdb2ecc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77b31fd87c4e49bcbe54ef1df621c03d = $(`<div id="html_77b31fd87c4e49bcbe54ef1df621c03d" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_e47f6dce42b643d9a27030df7fdb2ecc.setContent(html_77b31fd87c4e49bcbe54ef1df621c03d);
+        
+
+        poly_line_79f40b197ff7464a8586d54ee547f5b0.bindPopup(popup_e47f6dce42b643d9a27030df7fdb2ecc)
+        ;
+
+        
+    
+    
+            var poly_line_30f2d3339f7841bfb123bdb4ad7e9750 = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_1727fb3d03be465ebba32ccea048b7ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a345c1a25e6f4965bdf8b7aef9c35d51 = $(`<div id="html_a345c1a25e6f4965bdf8b7aef9c35d51" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_1727fb3d03be465ebba32ccea048b7ac.setContent(html_a345c1a25e6f4965bdf8b7aef9c35d51);
+        
+
+        poly_line_30f2d3339f7841bfb123bdb4ad7e9750.bindPopup(popup_1727fb3d03be465ebba32ccea048b7ac)
+        ;
+
+        
+    
+    
+            var poly_line_a6947b1fe69a483bbb0646e4a9b9e5b2 = L.polyline(
+                [[-20.27245133342315, -70.10170491070494], [-20.27245139915137, -70.10170476427955]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_5c255ccf6cdc4f49a76004f2b4143df4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_627819f311424e5ca4772455d26107c7 = $(`<div id="html_627819f311424e5ca4772455d26107c7" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_5c255ccf6cdc4f49a76004f2b4143df4.setContent(html_627819f311424e5ca4772455d26107c7);
+        
+
+        poly_line_a6947b1fe69a483bbb0646e4a9b9e5b2.bindPopup(popup_5c255ccf6cdc4f49a76004f2b4143df4)
+        ;
+
+        
+    
+    
+            var poly_line_a3faff542f3f4279a53f18a8dd98684b = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_b31181825ec4479a928168accc4cbba8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_900e10d74ce84483a2492708fb30fc18 = $(`<div id="html_900e10d74ce84483a2492708fb30fc18" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_b31181825ec4479a928168accc4cbba8.setContent(html_900e10d74ce84483a2492708fb30fc18);
+        
+
+        poly_line_a3faff542f3f4279a53f18a8dd98684b.bindPopup(popup_b31181825ec4479a928168accc4cbba8)
+        ;
+
+        
+    
+    
+            var poly_line_b7fdcbd70c8243e087d54c8f7028ecdc = L.polyline(
+                [[-20.271720591275457, -70.10379537840598], [-20.27184374124448, -70.10347550809625]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_086482de778d4a3e9d96f70b341ea693 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc1414a9d4d84ee68c64fe8b405d9208 = $(`<div id="html_fc1414a9d4d84ee68c64fe8b405d9208" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_086482de778d4a3e9d96f70b341ea693.setContent(html_fc1414a9d4d84ee68c64fe8b405d9208);
+        
+
+        poly_line_b7fdcbd70c8243e087d54c8f7028ecdc.bindPopup(popup_086482de778d4a3e9d96f70b341ea693)
+        ;
+
+        
+    
+    
+            var poly_line_9c9c8f4bdda342fb8d6b0477131a7b66 = L.polyline(
+                [[-20.272091549271536, -70.10287561584447], [-20.27226622237063, -70.10244383072168]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_5db7ff37c1e144c48590cfdd16c5276e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28a4c6abee0e4bea81b250ce3c3ef5b1 = $(`<div id="html_28a4c6abee0e4bea81b250ce3c3ef5b1" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_5db7ff37c1e144c48590cfdd16c5276e.setContent(html_28a4c6abee0e4bea81b250ce3c3ef5b1);
+        
+
+        poly_line_9c9c8f4bdda342fb8d6b0477131a7b66.bindPopup(popup_5db7ff37c1e144c48590cfdd16c5276e)
+        ;
+
+        
+    
+    
+            var poly_line_cda422a95d944f53a6102f3fea86e02f = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_3a5a7b4a0b124b4db07554ab84c4b23d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c69d52da0d764f859824afde2363c5a7 = $(`<div id="html_c69d52da0d764f859824afde2363c5a7" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_3a5a7b4a0b124b4db07554ab84c4b23d.setContent(html_c69d52da0d764f859824afde2363c5a7);
+        
+
+        poly_line_cda422a95d944f53a6102f3fea86e02f.bindPopup(popup_3a5a7b4a0b124b4db07554ab84c4b23d)
+        ;
+
+        
+    
+    
+            var poly_line_b2690ce9db35428cac316093c4da7504 = L.polyline(
+                [[-20.270989921526507, -70.10647033943822], [-20.27106126175773, -70.10640366018963], [-20.2711131740395, -70.10635050777259], [-20.271159736149365, -70.10629390223158], [-20.271211051783244, -70.10620059512134], [-20.27125224854426, -70.1061153117632], [-20.271275246019574, -70.10605024588885], [-20.271293864104322, -70.10596352881953]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_010c79194f9549c08763cc0b206ba8d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f18355ea84024db9ad454e677ff812e4 = $(`<div id="html_f18355ea84024db9ad454e677ff812e4" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_010c79194f9549c08763cc0b206ba8d9.setContent(html_f18355ea84024db9ad454e677ff812e4);
+        
+
+        poly_line_b2690ce9db35428cac316093c4da7504.bindPopup(popup_010c79194f9549c08763cc0b206ba8d9)
+        ;
+
+        
+    
+    
+            var poly_line_a722d13ecc324fdc8579fae0d5f11483 = L.polyline(
+                [[-20.268117345003247, -70.10888538731604], [-20.26830447251268, -70.10878209902467], [-20.268411040179707, -70.10869761337052], [-20.26844924275886, -70.10859623489743]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_93d920f22c814c0185119ba7828337aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ceea5d909458439ca997e7616065d252 = $(`<div id="html_ceea5d909458439ca997e7616065d252" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_93d920f22c814c0185119ba7828337aa.setContent(html_ceea5d909458439ca997e7616065d252);
+        
+
+        poly_line_a722d13ecc324fdc8579fae0d5f11483.bindPopup(popup_93d920f22c814c0185119ba7828337aa)
+        ;
+
+        
+    
+    
+            var poly_line_8332d8ad5fdd4de29078bc2604e95283 = L.polyline(
+                [[-20.267749163454855, -70.10899901072474], [-20.26746628219654, -70.10901533760503]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_1375068d2776484e865763db66867daa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2c8f3f7c74a4501b8c66eca807981aa = $(`<div id="html_d2c8f3f7c74a4501b8c66eca807981aa" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_1375068d2776484e865763db66867daa.setContent(html_d2c8f3f7c74a4501b8c66eca807981aa);
+        
+
+        poly_line_8332d8ad5fdd4de29078bc2604e95283.bindPopup(popup_1375068d2776484e865763db66867daa)
+        ;
+
+        
+    
+    
+            var poly_line_7d8a7db74c8e4e948dbe9c7784f4266b = L.polyline(
+                [[-20.271083553097906, -70.10625425688315], [-20.271136004685406, -70.10615230618323], [-20.271172199337745, -70.10602677021554], [-20.271208755489873, -70.10584385705403], [-20.271363559292983, -70.10505296500654]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_04c2a658434f42a1827be8f3998893dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82e39502446f415587895bcd5c63ee23 = $(`<div id="html_82e39502446f415587895bcd5c63ee23" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_04c2a658434f42a1827be8f3998893dd.setContent(html_82e39502446f415587895bcd5c63ee23);
+        
+
+        poly_line_7d8a7db74c8e4e948dbe9c7784f4266b.bindPopup(popup_04c2a658434f42a1827be8f3998893dd)
+        ;
+
+        
+    
+    
+            var poly_line_d99164d66a634856a64d0dd57c25f5d4 = L.polyline(
+                [[-20.272603571744845, -70.10133958743846]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_623e164fcfde4ec4bd4ff36602e22894 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59c693a1fff04302b1a76bd99a02a8e5 = $(`<div id="html_59c693a1fff04302b1a76bd99a02a8e5" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_623e164fcfde4ec4bd4ff36602e22894.setContent(html_59c693a1fff04302b1a76bd99a02a8e5);
+        
+
+        poly_line_d99164d66a634856a64d0dd57c25f5d4.bindPopup(popup_623e164fcfde4ec4bd4ff36602e22894)
+        ;
+
+        
+    
+    
+            var poly_line_787906c4fe19449c812acf0c12221e34 = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_08770e2c70c44dc8a49348cd3a03ea5e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6850ab3a649743cfa5ca823560bc5522 = $(`<div id="html_6850ab3a649743cfa5ca823560bc5522" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_08770e2c70c44dc8a49348cd3a03ea5e.setContent(html_6850ab3a649743cfa5ca823560bc5522);
+        
+
+        poly_line_787906c4fe19449c812acf0c12221e34.bindPopup(popup_08770e2c70c44dc8a49348cd3a03ea5e)
+        ;
+
+        
+    
+    
+            var poly_line_a4afc5df4e0d48bea888df9858f8a42e = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_ef0b1347658f48dc8e97234a1e186ef0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8fc455fac4641938ab6fd838c3cf14f = $(`<div id="html_c8fc455fac4641938ab6fd838c3cf14f" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_ef0b1347658f48dc8e97234a1e186ef0.setContent(html_c8fc455fac4641938ab6fd838c3cf14f);
+        
+
+        poly_line_a4afc5df4e0d48bea888df9858f8a42e.bindPopup(popup_ef0b1347658f48dc8e97234a1e186ef0)
+        ;
+
+        
+    
+    
+            var poly_line_9791926606194bfbb1bc91588c10b19a = L.polyline(
+                [[-20.269511138223734, -70.10776388919284], [-20.26951812240256, -70.10768259704952]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_265df22d334845c188aa48d115e0fd5d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23ab8152c98044598d1e4685a483409a = $(`<div id="html_23ab8152c98044598d1e4685a483409a" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_265df22d334845c188aa48d115e0fd5d.setContent(html_23ab8152c98044598d1e4685a483409a);
+        
+
+        poly_line_9791926606194bfbb1bc91588c10b19a.bindPopup(popup_265df22d334845c188aa48d115e0fd5d)
+        ;
+
+        
+    
+    
+            var poly_line_327fab34513e4212880b79e25c751a89 = L.polyline(
+                [[-20.265255111794595, -70.10908086072185]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_b84b1c5bfda8473e8cd78f3906730f1f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_171380d7921e46a2961468f007c1aafd = $(`<div id="html_171380d7921e46a2961468f007c1aafd" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_b84b1c5bfda8473e8cd78f3906730f1f.setContent(html_171380d7921e46a2961468f007c1aafd);
+        
+
+        poly_line_327fab34513e4212880b79e25c751a89.bindPopup(popup_b84b1c5bfda8473e8cd78f3906730f1f)
+        ;
+
+        
+    
+    
+            var poly_line_1905dfc2c0814023a8eb5f782ee70d62 = L.polyline(
+                [[-20.271751614304126, -70.10344162633866]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_5a023aafc4344dc6a7351f3ef53649fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8eb5321771e841d29ae267e382892263 = $(`<div id="html_8eb5321771e841d29ae267e382892263" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_5a023aafc4344dc6a7351f3ef53649fb.setContent(html_8eb5321771e841d29ae267e382892263);
+        
+
+        poly_line_1905dfc2c0814023a8eb5f782ee70d62.bindPopup(popup_5a023aafc4344dc6a7351f3ef53649fb)
+        ;
+
+        
+    
+    
+            var poly_line_758fda106d5141dbbf7cc98192621e03 = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_dda651b7318a4d32a1bd8d50fc33f571 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64d02c822c094e4aabd11d1250eacdc9 = $(`<div id="html_64d02c822c094e4aabd11d1250eacdc9" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_dda651b7318a4d32a1bd8d50fc33f571.setContent(html_64d02c822c094e4aabd11d1250eacdc9);
+        
+
+        poly_line_758fda106d5141dbbf7cc98192621e03.bindPopup(popup_dda651b7318a4d32a1bd8d50fc33f571)
+        ;
+
+        
+    
+    
+            var poly_line_41e4fa2dae6e476f861013a9ed13daf6 = L.polyline(
+                [[-20.272166271478667, -70.10240374609707]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_a27c5e92036d4d0dba181708354ffdcc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_219efe94f9514bb18f1c121fae205a19 = $(`<div id="html_219efe94f9514bb18f1c121fae205a19" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_a27c5e92036d4d0dba181708354ffdcc.setContent(html_219efe94f9514bb18f1c121fae205a19);
+        
+
+        poly_line_41e4fa2dae6e476f861013a9ed13daf6.bindPopup(popup_a27c5e92036d4d0dba181708354ffdcc)
+        ;
+
+        
+    
+    
+            var poly_line_2af3196cf33b4bf1a3184deb47aed8d0 = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_9160b30cd8c54253bf5c7ead761d04d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e71bd96f6064ec58c39916d384aec44 = $(`<div id="html_9e71bd96f6064ec58c39916d384aec44" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_9160b30cd8c54253bf5c7ead761d04d8.setContent(html_9e71bd96f6064ec58c39916d384aec44);
+        
+
+        poly_line_2af3196cf33b4bf1a3184deb47aed8d0.bindPopup(popup_9160b30cd8c54253bf5c7ead761d04d8)
+        ;
+
+        
+    
+    
+            var poly_line_2e0afd6707504667a31d1a264ddc5db4 = L.polyline(
+                [[-20.267776777733292, -70.10888096490989], [-20.26758534762367, -70.1088900935898], [-20.267087010029417, -70.10890753258442], [-20.266615068458812, -70.1089251584286], [-20.266551156284727, -70.10897661123313]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_9eeb4bc61e3f4fc79539e7a5bad561bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_563d380a0a194e3cafa201f8101c9f0d = $(`<div id="html_563d380a0a194e3cafa201f8101c9f0d" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_9eeb4bc61e3f4fc79539e7a5bad561bf.setContent(html_563d380a0a194e3cafa201f8101c9f0d);
+        
+
+        poly_line_2e0afd6707504667a31d1a264ddc5db4.bindPopup(popup_9eeb4bc61e3f4fc79539e7a5bad561bf)
+        ;
+
+        
+    
+    
+            var poly_line_7b4be6f4ec514264967378ddef7581b8 = L.polyline(
+                [[-20.270147626687912, -70.1072011036505]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_46f2e9d1a81b4d4a8bfbe9980c6794ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aed5c60523544e12ae16542b8c8534e6 = $(`<div id="html_aed5c60523544e12ae16542b8c8534e6" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_46f2e9d1a81b4d4a8bfbe9980c6794ef.setContent(html_aed5c60523544e12ae16542b8c8534e6);
+        
+
+        poly_line_7b4be6f4ec514264967378ddef7581b8.bindPopup(popup_46f2e9d1a81b4d4a8bfbe9980c6794ef)
+        ;
+
+        
+    
+    
+            var poly_line_c115f641b0614f67acc4e9a8642bcd5c = L.polyline(
+                [[-20.272020844046157, -70.10298855473692], [-20.272011855263084, -70.10292894702624]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_827ea591a8614710b0d24d7abc0461d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5132ac9a3fc48b39afe62e3c04400c2 = $(`<div id="html_d5132ac9a3fc48b39afe62e3c04400c2" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_827ea591a8614710b0d24d7abc0461d5.setContent(html_d5132ac9a3fc48b39afe62e3c04400c2);
+        
+
+        poly_line_c115f641b0614f67acc4e9a8642bcd5c.bindPopup(popup_827ea591a8614710b0d24d7abc0461d5)
+        ;
+
+        
+    
+    
+            var poly_line_c9219f2685844138b0562f59ca3e0375 = L.polyline(
+                [[-20.26549882467444, -70.10909218578264], [-20.26540179530493, -70.10915383177071], [-20.265351067645483, -70.10920244859388], [-20.265312803628532, -70.10927341729796], [-20.265310242637387, -70.10927732586775]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_d5341840462f4b55a055db6c9d8150a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83b2a05ed1494268943ed1c12f403714 = $(`<div id="html_83b2a05ed1494268943ed1c12f403714" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_d5341840462f4b55a055db6c9d8150a1.setContent(html_83b2a05ed1494268943ed1c12f403714);
+        
+
+        poly_line_c9219f2685844138b0562f59ca3e0375.bindPopup(popup_d5341840462f4b55a055db6c9d8150a1)
+        ;
+
+        
+    
+    
+            var poly_line_28344be451d14f94bd9fd27edec9f315 = L.polyline(
+                [[-20.27315198474502, -70.09998891471324]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_12b1ddce4e1c4e70accac1de3ce1c94e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99903f0f89464763813c1a7e08c1460b = $(`<div id="html_99903f0f89464763813c1a7e08c1460b" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_12b1ddce4e1c4e70accac1de3ce1c94e.setContent(html_99903f0f89464763813c1a7e08c1460b);
+        
+
+        poly_line_28344be451d14f94bd9fd27edec9f315.bindPopup(popup_12b1ddce4e1c4e70accac1de3ce1c94e)
+        ;
+
+        
+    
+    
+            var poly_line_24f8d38e29194ddda80e065e446f33b0 = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_246d12ad8f024618b7d62d9de5941dc9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eac3bbc9804e4e26ac456c3eed003431 = $(`<div id="html_eac3bbc9804e4e26ac456c3eed003431" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_246d12ad8f024618b7d62d9de5941dc9.setContent(html_eac3bbc9804e4e26ac456c3eed003431);
+        
+
+        poly_line_24f8d38e29194ddda80e065e446f33b0.bindPopup(popup_246d12ad8f024618b7d62d9de5941dc9)
+        ;
+
+        
+    
+    
+            var poly_line_b847fb2f5068452cb3399edd2becba77 = L.polyline(
+                [[-20.27479183427482, -70.095898601357], [-20.274866084978758, -70.09571590199452], [-20.27491354339114, -70.09559779778918], [-20.274923304721867, -70.09557350644558]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_91d1ce4efaf54d8ba7f40653f1b95873 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dbf497b4dacb455d8ea71e8229d9f472 = $(`<div id="html_dbf497b4dacb455d8ea71e8229d9f472" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_91d1ce4efaf54d8ba7f40653f1b95873.setContent(html_dbf497b4dacb455d8ea71e8229d9f472);
+        
+
+        poly_line_b847fb2f5068452cb3399edd2becba77.bindPopup(popup_91d1ce4efaf54d8ba7f40653f1b95873)
+        ;
+
+        
+    
+    
+            var poly_line_7ca14c8a9ea34255a7abd06fac6c1349 = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_1c48cd9bd0ba499da58bbc78e41ad8e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_702890a5529a4755abea0b8e044bb073 = $(`<div id="html_702890a5529a4755abea0b8e044bb073" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_1c48cd9bd0ba499da58bbc78e41ad8e9.setContent(html_702890a5529a4755abea0b8e044bb073);
+        
+
+        poly_line_7ca14c8a9ea34255a7abd06fac6c1349.bindPopup(popup_1c48cd9bd0ba499da58bbc78e41ad8e9)
+        ;
+
+        
+    
+    
+            var poly_line_6317d27411ff420f93eb508c37767aff = L.polyline(
+                [[-20.266551156284727, -70.10897661123313]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_c8a79bad5e0045ff93f092ce5a3a99de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ef5e127b5984364ae675da89b222a58 = $(`<div id="html_4ef5e127b5984364ae675da89b222a58" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_c8a79bad5e0045ff93f092ce5a3a99de.setContent(html_4ef5e127b5984364ae675da89b222a58);
+        
+
+        poly_line_6317d27411ff420f93eb508c37767aff.bindPopup(popup_c8a79bad5e0045ff93f092ce5a3a99de)
+        ;
+
+        
+    
+    
+            var poly_line_e1adfb8f05494ea495e8f877e3bcd8e6 = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_67741e7907824cfdad6a6bfdae02fa19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d799afe047b74231aa1050d24badd99e = $(`<div id="html_d799afe047b74231aa1050d24badd99e" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_67741e7907824cfdad6a6bfdae02fa19.setContent(html_d799afe047b74231aa1050d24badd99e);
+        
+
+        poly_line_e1adfb8f05494ea495e8f877e3bcd8e6.bindPopup(popup_67741e7907824cfdad6a6bfdae02fa19)
+        ;
+
+        
+    
+    
+            var poly_line_e89c3876c5d741bc846cb2a2c9abd119 = L.polyline(
+                [[-20.265177566553874, -70.10939712699067], [-20.265076674001936, -70.1094053151345], [-20.265033089046398, -70.1093759348348], [-20.26496185643845, -70.10928446388101]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_93f597c791f04a2b8b3ef786127e43c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_900290fc191c407393736a34789fe857 = $(`<div id="html_900290fc191c407393736a34789fe857" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_93f597c791f04a2b8b3ef786127e43c4.setContent(html_900290fc191c407393736a34789fe857);
+        
+
+        poly_line_e89c3876c5d741bc846cb2a2c9abd119.bindPopup(popup_93f597c791f04a2b8b3ef786127e43c4)
+        ;
+
+        
+    
+    
+            var poly_line_60c72999e68c4d379a4cb57b7e3e25d2 = L.polyline(
+                [[-20.26942586262209, -70.10768286205253], [-20.26951812240256, -70.10768259704952]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_42708ac76ca54f1b919ca13a53d9d7dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25b91f58b4954677829a1dfa223672ef = $(`<div id="html_25b91f58b4954677829a1dfa223672ef" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_42708ac76ca54f1b919ca13a53d9d7dc.setContent(html_25b91f58b4954677829a1dfa223672ef);
+        
+
+        poly_line_60c72999e68c4d379a4cb57b7e3e25d2.bindPopup(popup_42708ac76ca54f1b919ca13a53d9d7dc)
+        ;
+
+        
+    
+    
+            var poly_line_10303db1bdc64f958cbc535b41ea84ae = L.polyline(
+                [[-20.268117296969738, -70.10877499065582], [-20.268276353555382, -70.10866772821765], [-20.26844924275886, -70.10859623489743]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_32a0b1439dfc436caff6780978eadc86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1dece38d153f4a01957d278c2a535321 = $(`<div id="html_1dece38d153f4a01957d278c2a535321" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_32a0b1439dfc436caff6780978eadc86.setContent(html_1dece38d153f4a01957d278c2a535321);
+        
+
+        poly_line_10303db1bdc64f958cbc535b41ea84ae.bindPopup(popup_32a0b1439dfc436caff6780978eadc86)
+        ;
+
+        
+    
+    
+            var poly_line_72c9927fff914342901892a7b71ddb29 = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_af38789b316f48409b5cba3145a1c1b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2341de5e2a8a4c5db803adc462ec840a = $(`<div id="html_2341de5e2a8a4c5db803adc462ec840a" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_af38789b316f48409b5cba3145a1c1b0.setContent(html_2341de5e2a8a4c5db803adc462ec840a);
+        
+
+        poly_line_72c9927fff914342901892a7b71ddb29.bindPopup(popup_af38789b316f48409b5cba3145a1c1b0)
+        ;
+
+        
+    
+    
+            var poly_line_ca3ee67d09a34020851315bca261459b = L.polyline(
+                [],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47b4f787b59b4909b252785e238a6dc3);
+        
+    
+        var popup_6efb78f8968d498c8dcbe4eb2a191f71 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_203516934d6a437b91c637addad36973 = $(`<div id="html_203516934d6a437b91c637addad36973" style="width: 100.0%; height: 100.0%;">AVENIDA LOS CONDORES</div>`)[0];
+            popup_6efb78f8968d498c8dcbe4eb2a191f71.setContent(html_203516934d6a437b91c637addad36973);
+        
+
+        poly_line_ca3ee67d09a34020851315bca261459b.bindPopup(popup_6efb78f8968d498c8dcbe4eb2a191f71)
+        ;
+
+        
+    
+</script>
